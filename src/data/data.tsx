@@ -236,9 +236,23 @@ export const experience: TimelineItem[] = [
     location: 'RIGI',
     title: 'Sr.SDE, React Native Engineer',
     content: (
-      <p>
-        Building a community platform to enable creators build their communities. I'm working specifically on building App with features like Post Creation & Feed, Webinar/Course Creation & Locked Messages, in-app Group/Channel Chats.
-      </p>
+     <>
+  <p>
+    • Built a Community cross-platform app with React-Native Framewrok, enabling creators to build their communities by sharing & monetizing their
+    content.
+  </p>
+  <p>
+    • Developed social-media feed feature in less than 2 months, containing dynamic images/videos rendering with minimal
+    latency and interactive elements like Polls, QnA forums, Quizs.
+  </p>
+  <p>
+    • Revamped the existing code structure and improved the performance by 30% and upgraded UI with buttery-smooth
+    responsiveness.
+  </p>
+  <p>
+    • Playing an integral role in building Community app with by involving in product, design & tech discussions and weekly releasing new features/updates.
+  </p>
+    </>
     ),
   },
   {
