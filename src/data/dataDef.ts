@@ -32,6 +32,7 @@ interface HeroActionItem {
   text: string;
   primary?: boolean;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  target: string;
 }
 
 /**
@@ -64,7 +65,7 @@ export interface Stat {
 
 export interface Skill {
   name: string;
-  level: number;
+  level?: number;
   max?: number;
 }
 
