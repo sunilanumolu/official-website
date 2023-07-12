@@ -31,6 +31,7 @@ import {
   About,
   ContactSection,
   ContactType,
+  ExtraCircularSection,
   Hero,
   HomepageMeta,
   PortfolioItem,
@@ -60,6 +61,7 @@ export const SectionId = {
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
+  ExtraCircular: 'extracircular',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -294,6 +296,63 @@ export const testimonial: TestimonialSection = {
     },
   ],
 };
+
+/**
+ *  Extra Circular Activities 
+ */
+export const extracirculars: ExtraCircularSection = {
+  title: `Extra Circular Activities`,
+  data: [
+    {
+      title: `General Secretary of Students' Parliament`,
+      time: `Mar, 2020 - Apr, 2021`,
+      place: `IIIT Hyderabad`,
+      description: (
+        <>
+        <p>• As a GenSec I used to run the Parliament & maintain good relation with faculty, staff to swiftly resolve students' community issues. </p>
+        <p>• Covid stuck this year and I've became the Gen Sec, it was difficult times to be a GenSec, but I did my job well with the help from student's community and faculty, staff.</p>
+        <p>• I've been awared <strong>BANYAN Award</strong>, the University highest award, for all my contribution towards students' community.</p>
+        </>
+      )
+    },
+    {
+      title: `Speaker of Students' Parliament`,
+      time: `Mar, 2019 - Apr, 2020`,
+      place: `IIIT Hyderabad`,
+      description: (
+        <>
+        <p>• Got elected as an MP by batchmates and elected as Speaker by the Parliament, I'm the first guy to became a speaker in their first term.</p>
+        <p>• As an MP, I've used to conduct regular parliament meetings and follow-up on all students' issues.</p>
+        <p>• I've also been a core-member of the <strong>FELICITY</strong>, university fest this year and helped in smooth orgaization.</p>
+        </>
+      )
+    },
+    {
+      title: `Co-ordinator of NSS program`,
+      time: `Mar, 2018 - Apr, 2019`,
+      place: `IIIT Hyderabad`,
+      description: (
+        <>
+        <p>• I joined National Service Scheme program, known as NSS in my first year, I've been an active member of it thorught out the year. </p>
+        <p>• As a co-ordinator I've organized multiple <strong>Blood donation camps</strong>, in partnership with the trusted Govt hospitals in Hyderabad.</p>
+        <p>• I've also organized Orphanage/OldAge home visits, we used to go and spend an afternoon & have fun with the kids / old people </p>
+        <p>• and also organized Talks by high ranking Govt Officials & cleanliness drives & clothes donation drives ...many</p>
+        </>
+      )
+    },
+    {
+      title: `Co-ordinator of Photography club`,
+      time: `Mar, 2018 - Apr, 2019`,
+      place: `IIIT Hyderabad`,
+      description: (
+        <>
+        <p>• I've been into Photography from the day I started using the camera, I learnt photography from my seniors in the club.</p>
+        <p>• I've organized photography classes,events & walks as being a co-ordinator and used to cover most of the University events by myself.</p>
+        </>
+      )
+    },
+  ],
+}; 
 
 /**
  * Contact section

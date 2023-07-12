@@ -109,6 +109,20 @@ export interface Testimonial {
 }
 
 /**
+ * Extra Circular section
+ */
+export interface ExtraCircularSection {
+  title?: string,
+  data?: ExtraCircularItem[];
+}
+
+export interface ExtraCircularItem {
+  title?: string,
+  time?: string,
+  place?: string,
+  description?: JSX.Element,
+}
+/**
  * Contact section
  */
 export interface ContactSection {
