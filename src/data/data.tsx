@@ -14,17 +14,17 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage11 from '../images/portfolio/fighterjet2d.jpg';
+import porfolioImage8 from '../images/portfolio/fighterjet3d.jpg';
+import porfolioImage5 from '../images/portfolio/musicstream.jpg';
+import porfolioImage1 from '../images/portfolio/netflix.jpg';
+import porfolioImage9 from '../images/portfolio/shell.png';
+import porfolioImage4 from '../images/portfolio/socket.png';
+import porfolioImage6 from '../images/portfolio/spaceinvaders.png';
+import porfolioImage10 from '../images/portfolio/sqlengine.png';
+import porfolioImage7 from '../images/portfolio/subwaysurfers.jpg';
+import porfolioImage2 from '../images/portfolio/tinderbot.jpg';
+import porfolioImage3 from '../images/portfolio/webscrapping.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -148,69 +148,69 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Netflix Backend',
+    description: 'Netflix like system backend services with Layered Architecture',
+    url: 'https://github.com/sunilanumolu/xflix_backend',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Tinder Bot',
+    description: 'A bot to help swipe profiles based on commanalities',
+    url: 'https://github.com/sunilanumolu/TinderBot',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Web Scrapping',
+    description: 'Amazon website data collection',
+    url: 'https://github.com/sunilanumolu/Web-Scrapping',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Client-Server Sockets',
+    description: 'A-basic-Server-and-Client-with-Sockets in C++',
+    url: 'https://github.com/sunilanumolu/A-basic-Server-and-Client-with-Sockets',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Music WebApp',
+    description: 'A Music streaming straWebApp using React',
+    url: 'https://github.com/sunilanumolu/MusiconWebe',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Space Invaders',
+    description: 'Space Inavders 2D game built in Python',
+    url: 'https://github.com/sunilanumolu/Space-Invaders-2Dgame',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Subway Surfers',
+    description: '3D game built using WebGL library',
+    url: 'https://github.com/sunilanumolu/WebGL-3D-Gamee',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Fighter-Jet game',
+    description: `It's a 3D game buit with OpenGL library`,
+    url: 'https://github.com/sunilanumolu/Graphics-3D-Game',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'OS Shell',
+    description: 'A Terminal which works like an ubuntu termial',
+    url: 'https://github.com/sunilanumolu/OS-Shell-Part-2',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'SQL engine',
+    description: 'A mini SQL engine with basic to medium functionality',
+    url: 'https://github.com/sunilanumolu/DB-mini-sql',
     image: porfolioImage10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Fighter-Jet 2D',
+    description: `It's a 2D verson built with OpenGL library`,
+    url: 'https://github.com/sunilanumolu/Graphics-2D-Game',
     image: porfolioImage11,
   },
 ];
