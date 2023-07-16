@@ -45,8 +45,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: "Sunil Anumolus' resume",
-  description: "Sunils' resume webiste to make it interesting than a regular resume",
+  title: "Sunil Anumolus' Website",
+  description: "Sunil Anumolus' portfolio webiste with about section,career details, projects worked on, extra circular activities, contact details.",
 };
 
 /**
