@@ -25,7 +25,7 @@ import porfolioImage10 from '../images/portfolio/sqlengine.png';
 import porfolioImage7 from '../images/portfolio/subwaysurfers.jpg';
 import porfolioImage2 from '../images/portfolio/tinderbot.jpg';
 import porfolioImage3 from '../images/portfolio/webscrapping.png';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilephoto.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
