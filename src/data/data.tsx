@@ -61,7 +61,7 @@ export const SectionId = {
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
-  ExtraCircular: 'extracircular',
+  ExtraCircular: 'extraCurricular',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -301,7 +301,7 @@ export const testimonial: TestimonialSection = {
  *  Extra Circular Activities 
  */
 export const extracirculars: ExtraCircularSection = {
-  title: `Extra Circular Activities`,
+  title: `Extra Curricular Activities`,
   data: [
     {
       title: `General Secretary of Students' Parliament`,
