@@ -71,16 +71,15 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Sunil Anumolu`,
+  name: `I'm Sunil Anumolu.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Hyderabad based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Rigi</strong> building a modern app & web platform enabling creators grow their communities.
+        I'm a Hyderabad-based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Rigi</strong> building a modern app & web platform empowering creators to grow their communities.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I'll involve myself in sports mostly badminton, cricket &
-        goes out explore new places around, once in a while I'll set myself on a trip either solo or with friends.
+      I'm an avid sports enthusiast, playing badminton and cricket. I also love exploring new places, new cultures & meeting people, often embarking on solo or group trips.
       </p>
     </>
   ),
@@ -106,13 +105,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a fully stack engineer. I like to code. My fav frameworks are React, React-Native. I have been a student leader for 2 years at my University, I like to work in-front. In my free time I go out to play any sport and likes to explore new places, meet new people, find new tastes in food.`,
+  description: `I'm a passionate full-stack engineer with a love for coding, specializing in React and React-Native frameworks. I've had the privilege of being a student leader at my university, IIIT-H, for two years, thriving in front-facing roles. During my free time, I'm an active sports enthusiast and an avid explorer, always seeking new adventures, new friends, and new culinary experiences.`,
   aboutItems: [
     {label: 'Location', text: 'Hyderabad, IND', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
     {label: 'Nationality', text: 'INDIAN', Icon: FlagIcon},
     {label: 'Interests', text: 'Cricket, Badminton, Formula 1, Biking', Icon: SparklesIcon},
-    {label: 'Study', text: 'IIIT Hyderabad', Icon: AcademicCapIcon},
+    {label: 'Education', text: 'IIIT Hyderabad', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'RIGI', Icon: BuildingOffice2Icon},
   ],
 };
@@ -240,19 +239,16 @@ export const experience: TimelineItem[] = [
     content: (
      <>
   <p>
-    • Built a Community cross-platform app with React-Native Framewrok, enabling creators to build their communities by sharing & monetizing their
-    content.
+    • Developed a cross-platform community app using React-Native framework, empowering creators to share and monetize their content.
   </p>
   <p>
-    • Developed social-media feed feature in less than 2 months, containing dynamic images/videos rendering with minimal
-    latency and interactive elements like Polls, QnA forums, Quizs.
+    • Successfully implemented a dynamic social media feed feature within a tight timeframe, featuring fast image/video rendering and interactive elements like polls, Q&A forums, and quizzes.
   </p>
   <p>
-    • Revamped the existing code structure and improved the performance by 30% and upgraded UI with buttery-smooth
-    responsiveness.
+    • Spearheaded a code structure overhaul, resulting in a 30% performance improvement and an upgraded UI with seamless responsiveness.
   </p>
   <p>
-    • Playing an integral role in building Community app with by involving in product, design & tech discussions and weekly releasing new features/updates.
+    • Played a pivotal role in the Community project by actively participating in product, design, and technical discussions, and consistently delivering new features and updates.
   </p>
     </>
     ),
@@ -264,10 +260,10 @@ export const experience: TimelineItem[] = [
     content: (
       <>
       <p>
-        <strong>JioMeet: </strong>
-        developed an internal communication platform using RocketChat and integrated it into JioMeet.
+        <strong>JioMeet Integration: </strong>
+        Developed an internal communication platform using RocketChat and seamlessly integrated it into JioMeet.
       </p>
-      <p><strong>JioGames: </strong>: Implemented crucial features as part of developing a live-streaming and video-watching, video upload platform.</p>
+      <p><strong>JioGames Contribution: </strong>:  Played a pivotal role in implementing vital features for the development of a live-streaming, video-watching, and video-upload platform within JioGames.</p>
       </>
     ),
   },

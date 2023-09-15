@@ -8,7 +8,7 @@ export const SkillGroup: FC<PropsWithChildren<{skillGroup: SkillGroupType}>> = m
   return (
     <div className="flex flex-col">
       <span className="text-sm sm:text-base font-bold">{name} :</span>
-      <div className="flex flex-row gap-y-2 mt-1">
+      <div className="flex flex-row gap-y-2 mt-1 gap-x-2">
         {skills.map((skill, index) => (
           <Skill isLast={index === len - 1} key={`${skill.name}-${index}`} skill={skill} />
         ))}
