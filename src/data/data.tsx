@@ -2,7 +2,7 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
+  // CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
@@ -25,7 +25,7 @@ import porfolioImage10 from '../images/portfolio/sqlengine.png';
 import porfolioImage7 from '../images/portfolio/subwaysurfers.jpg';
 import porfolioImage2 from '../images/portfolio/tinderbot.jpg';
 import porfolioImage3 from '../images/portfolio/webscrapping.png';
-import profilepic from '../images/profilephoto.jpg';
+import profilepic from '../images/profilepic.jpeg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -71,15 +71,15 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Sunil Anumolu.`,
+  name: `Sunil Anumolu`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Hyderabad-based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Rigi</strong> building a modern app & web platform empowering creators to grow their communities.
+        <strong className="text-stone-100">Full Stack Software Engineer</strong>, with a knack to deliver great products, specialised in frontend development of Android/iOS/Web applications.
+        Love building products to enhance user experience.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I'm an avid sports enthusiast, playing badminton and cricket. I also love exploring new places, new cultures & meeting people, often embarking on solo or group trips.
+        Avid sports enthusiast, actively plays badminton and cricket, also love exploring new places, new cultures & meeting people, often embarking on solo adventures.
       </p>
     </>
   ),
@@ -105,14 +105,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm a passionate full-stack engineer with a love for coding, specializing in React and React-Native frameworks. I've had the privilege of being a student leader at my university, IIIT-H, for two years, thriving in front-facing roles. During my free time, I'm an active sports enthusiast and an avid explorer, always seeking new adventures, new friends, and new culinary experiences.`,
+  description: `Driven by a passion for tackling complex tech challenges and crafting great products, with 7 years of extensive experience in frontend & backend development 
+  across mobile and web platforms. Proficient in a range of technologies including React Native, React, Next JS, Angular JS, Node JS & Python. Demonstrated adaptability and 
+  innovative prowess in diverse environments from startups to multinational corporations.`,
   aboutItems: [
-    {label: 'Location', text: 'Hyderabad, IND', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
+    {label: 'Location', text: 'Atlanta, GA, USA', Icon: MapIcon},
+    // {label: 'Age', text: '24', Icon: CalendarIcon},
     {label: 'Nationality', text: 'INDIAN', Icon: FlagIcon},
     {label: 'Interests', text: 'Cricket, Badminton, Formula 1, Biking', Icon: SparklesIcon},
     {label: 'Education', text: 'IIIT Hyderabad', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'RIGI', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Influencer Garage', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -122,19 +124,23 @@ export const aboutData: About = {
 export const skills: SkillGroup[] = [
   {
     name: 'Programming Languages', 
-    skills: [ {name: 'Java Script'}, {name: 'C'}, {name: 'C++'}, {name: 'Python'}, {name: 'Java'}, {name: 'Kotlin'}, {name: 'Bash'}, {name: 'Matlab'}],
-  },
-  {
-    name: 'Frontend', 
-    skills: [ {name: 'React'}, {name: 'React Native'}, {name: 'HTML'}, {name: 'CSS'}],
+    skills: [ {name: 'Java Script'}, {name: 'C'}, {name: 'C++'}, {name: 'Python'}, {name: 'Java'}, {name: 'Kotlin'}, {name: 'Bash'}, {name: 'Swift'}],
   },
   {
     name: 'Database Management', 
-    skills: [ {name: 'MySQL'}, {name: 'SQLite'}, {name: 'Neo4J'}, {name: 'XQuery'}, {name: 'MongoDB'}],
+    skills: [ {name: 'SQL'}, {name: 'SQLite'}, {name: 'Neo4J'}, {name: 'XQuery'}, {name: 'MongoDB'}, {name: 'GraphQL'}],
   },
   {
-    name: 'Backend', 
-    skills: [ {name: 'Node JS'}, {name: 'Express JS'},],
+    name: 'Modern Frameworks', 
+    skills: [ {name: 'NodeJS'}, {name: 'NextJS'}, {name: 'ExpressJS'}, {name: 'Angular'}, {name: 'VueJS'} ],
+  },
+  {
+    name: 'Frontend', 
+    skills: [ {name: 'React'}, {name: 'React Native'}, {name: 'HTML'}, {name: 'CSS'}, {name: 'Micro Frontend Arch'}, {name: 'Design Patterns'}, {name: ''}],
+  },
+  {
+    name: 'Dev Tools',
+    skills: [ {name: 'Android Studio'}, {name: 'XCode'}, {name: 'AWS'},  {name: 'GCP'}, {name: 'Matlab'}],
   },
   {
     name: 'Graphics', 
@@ -224,8 +230,8 @@ export const education: TimelineItem[] = [
     title: 'Bachelors in Computer Science and Engineering',
     content: (
       <>
-      <p><strong>Major Courses:</strong> : Artificial Intelligence, Statistical Methods in AI, Optimization Methods, Data Structures, Algorithms, Operating Systems, Database Systems, Blockchain, Principles of Information Security.</p>
-      <p><strong>Teaching Assistant:</strong> Algorithms Analysis & Design, Internet of Things, Digital Signals & Microcontrollers. </p>
+      {/* <p><strong>Major Courses:</strong> : Artificial Intelligence, Statistical Methods in AI, Optimization Methods, Data Structures, Algorithms, Operating Systems, Database Systems, Blockchain, Principles of Information Security.</p>
+      <p><strong>Teaching Assistant:</strong> Algorithms Analysis & Design, Internet of Things, Digital Signals & Microcontrollers. </p> */}
     </>
     )
   },
@@ -233,12 +239,21 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'December 2022 - Present',
-    location: 'RIGI',
-    title: 'Sr.SDE, React Native Engineer',
+    date: 'Oct 2023 - May 2024',
+    location: 'Influencer Garage (Start-Up)',
+    title: 'Senior Software Development Engineer',
     content: (
      <>
-  <p>
+     </>
+    ),
+  },
+  {
+    date: 'Feb 2021 -  Sept 2023',
+    location: 'Rigi (Start-Up)',
+    title: 'Senior React Native Engineer & Team Lead',
+    content: (
+     <>
+  {/* <p>
     • Developed a cross-platform community app using React-Native framework, empowering creators to share and monetize their content.
   </p>
   <p>
@@ -249,21 +264,30 @@ export const experience: TimelineItem[] = [
   </p>
   <p>
     • Played a pivotal role in the Community project by actively participating in product, design, and technical discussions, and consistently delivering new features and updates.
-  </p>
+  </p> */}
     </>
     ),
   },
   {
-    date: 'July 2021 - November 2022',
+    date: 'July 2019 -  Jan 2021',
     location: 'Reliance JIO',
-    title: 'SDE, React Native Engineer',
+    title: 'Software Development Engineer',
     content: (
       <>
-      <p>
+      {/* <p>
         <strong>JioMeet Integration: </strong>
         Developed an internal communication platform using RocketChat and seamlessly integrated it into JioMeet.
       </p>
-      <p><strong>JioGames Contribution: </strong>:  Played a pivotal role in implementing vital features for the development of a live-streaming, video-watching, and video-upload platform within JioGames.</p>
+      <p><strong>JioGames Contribution: </strong>:  Played a pivotal role in implementing vital features for the development of a live-streaming, video-watching, and video-upload platform within JioGames.</p> */}
+      </>
+    ),
+  },
+  {
+    date: 'May 2017 -  June 2018',
+    location: 'Mondelez International',
+    title: 'Software Development Engineer',
+    content: (
+      <>
       </>
     ),
   },
@@ -355,8 +379,8 @@ export const extracirculars: ExtraCircularSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here are my social links, feel free to reach out. Adios!! Gracias!!',
+  headerText: 'Get in touch',
+  description: 'Here are my contact/social links, feel free to reach out. Adios!! Gracias!!',
   items: [
     {
       type: ContactType.Email,
@@ -380,7 +404,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Hyderabad, India',
+      text: 'Atlanta, GA, USA',
       href: 'https://goo.gl/maps/48oScjvajz2gYRwR9',
     },
   ],

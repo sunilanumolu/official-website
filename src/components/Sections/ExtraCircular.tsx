@@ -20,8 +20,8 @@ const ExtraCircular: FC = memo(() => {
                     <h2 className='text-lg font-bold'>{item?.title}</h2>
                     <div className='flex gap-x-2 justify-start'>
                         <span className='text-sm font-medium italic'>{item?.place}</span>
-                        <span>•</span>
-                        <span className='text-sm'>{item?.time}</span>
+                        {/* <span>•</span>
+                        <span className='text-sm'>{item?.time}</span> */}
                     </div>
                     </div>
                     <div className='text-base'>

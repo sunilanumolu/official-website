@@ -88,7 +88,7 @@ export interface PortfolioItem {
  * Resume section
  */
 export interface TimelineItem {
-  date: string;
+  date?: string;
   location: string;
   title: string;
   content: JSX.Element;

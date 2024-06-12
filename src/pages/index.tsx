@@ -22,9 +22,9 @@ const Home: FC = memo(() => {
       <Header />
       <Hero />
       <About />
-      <Resume />
       {/* <Testimonials /> */}
       <Portfolio />
+      <Resume />
       <ExtraCircular />
       <Contact />
       <Footer />
