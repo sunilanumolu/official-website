@@ -46,7 +46,8 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: "Sunil Anumolus' Website",
-  description: "Sunil Anumolus' portfolio webiste with about section,career details, projects worked on, extra circular activities, contact details.",
+  description:
+    "Sunil Anumolus' portfolio webiste with about section,career details, projects worked on, extra circular activities, contact details.",
 };
 
 /**
@@ -64,7 +65,7 @@ export const SectionId = {
   ExtraCircular: 'extraCurricular',
 } as const;
 
-export type SectionId = typeof SectionId[keyof typeof SectionId];
+export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
 /**
  * Hero section
@@ -75,11 +76,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">Full Stack Software Engineer</strong>, with a knack to deliver great products, specialised in frontend development of Android/iOS/Web applications.
-        Love building products to enhance user experience.
+        <strong className="text-stone-100">Full Stack Software Engineer</strong>, with a knack to deliver great
+        products, specialised in frontend development of Android/iOS/Web applications. Love building products to enhance
+        user experience.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Avid sports enthusiast, actively plays badminton and cricket, also love exploring new places, new cultures & meeting people, often embarking on solo adventures.
+        Avid sports enthusiast, actively plays badminton and cricket, also love exploring new places, new cultures &
+        meeting people, often embarking on solo adventures.
       </p>
     </>
   ),
@@ -123,28 +126,45 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Programming Languages', 
-    skills: [ {name: 'Java Script'}, {name: 'C'}, {name: 'C++'}, {name: 'Python'}, {name: 'Java'}, {name: 'Kotlin'}, {name: 'Bash'}, {name: 'Swift'}],
+    name: 'Programming Languages',
+    skills: [
+      {name: 'Java Script'},
+      {name: 'C'},
+      {name: 'C++'},
+      {name: 'Python'},
+      {name: 'Java'},
+      {name: 'Kotlin'},
+      {name: 'Bash'},
+      {name: 'Swift'},
+    ],
   },
   {
-    name: 'Database Management', 
-    skills: [ {name: 'SQL'}, {name: 'SQLite'}, {name: 'Neo4J'}, {name: 'XQuery'}, {name: 'MongoDB'}, {name: 'GraphQL'}],
+    name: 'Database Management',
+    skills: [{name: 'SQL'}, {name: 'SQLite'}, {name: 'Neo4J'}, {name: 'XQuery'}, {name: 'MongoDB'}, {name: 'GraphQL'}],
   },
   {
-    name: 'Modern Frameworks', 
-    skills: [ {name: 'NodeJS'}, {name: 'NextJS'}, {name: 'ExpressJS'}, {name: 'Angular'}, {name: 'VueJS'} ],
+    name: 'Modern Frameworks',
+    skills: [{name: 'NodeJS'}, {name: 'NextJS'}, {name: 'ExpressJS'}, {name: 'Angular'}, {name: 'VueJS'}],
   },
   {
-    name: 'Frontend', 
-    skills: [ {name: 'React'}, {name: 'React Native'}, {name: 'HTML'}, {name: 'CSS'}, {name: 'Micro Frontend Arch'}, {name: 'Design Patterns'}, {name: ''}],
+    name: 'Frontend',
+    skills: [
+      {name: 'React'},
+      {name: 'React Native'},
+      {name: 'HTML'},
+      {name: 'CSS'},
+      {name: 'Micro Frontend Arch'},
+      {name: 'Design Patterns'},
+      {name: ''},
+    ],
   },
   {
     name: 'Dev Tools',
-    skills: [ {name: 'Android Studio'}, {name: 'XCode'}, {name: 'AWS'},  {name: 'GCP'}, {name: 'Matlab'}],
+    skills: [{name: 'Android Studio'}, {name: 'XCode'}, {name: 'AWS'}, {name: 'GCP'}, {name: 'Matlab'}],
   },
   {
-    name: 'Graphics', 
-    skills: [ {name: 'OpenGL'}, {name: 'WebGL'},],
+    name: 'Graphics',
+    skills: [{name: 'OpenGL'}, {name: 'WebGL'}],
   },
 ];
 
@@ -230,10 +250,10 @@ export const education: TimelineItem[] = [
     title: 'Bachelors in Computer Science and Engineering',
     content: (
       <>
-      {/* <p><strong>Major Courses:</strong> : Artificial Intelligence, Statistical Methods in AI, Optimization Methods, Data Structures, Algorithms, Operating Systems, Database Systems, Blockchain, Principles of Information Security.</p>
+        {/* <p><strong>Major Courses:</strong> : Artificial Intelligence, Statistical Methods in AI, Optimization Methods, Data Structures, Algorithms, Operating Systems, Database Systems, Blockchain, Principles of Information Security.</p>
       <p><strong>Teaching Assistant:</strong> Algorithms Analysis & Design, Internet of Things, Digital Signals & Microcontrollers. </p> */}
-    </>
-    )
+      </>
+    ),
   },
 ];
 
@@ -242,18 +262,15 @@ export const experience: TimelineItem[] = [
     date: 'Oct 2023 - May 2024',
     location: 'Influencer Garage (Start-Up)',
     title: 'Senior Software Development Engineer',
-    content: (
-     <>
-     </>
-    ),
+    content: <></>,
   },
   {
     date: 'Feb 2021 -  Sept 2023',
     location: 'Rigi (Start-Up)',
     title: 'Senior React Native Engineer & Team Lead',
     content: (
-     <>
-  {/* <p>
+      <>
+        {/* <p>
     • Developed a cross-platform community app using React-Native framework, empowering creators to share and monetize their content.
   </p>
   <p>
@@ -265,7 +282,7 @@ export const experience: TimelineItem[] = [
   <p>
     • Played a pivotal role in the Community project by actively participating in product, design, and technical discussions, and consistently delivering new features and updates.
   </p> */}
-    </>
+      </>
     ),
   },
   {
@@ -274,7 +291,7 @@ export const experience: TimelineItem[] = [
     title: 'Software Development Engineer',
     content: (
       <>
-      {/* <p>
+        {/* <p>
         <strong>JioMeet Integration: </strong>
         Developed an internal communication platform using RocketChat and seamlessly integrated it into JioMeet.
       </p>
@@ -286,10 +303,7 @@ export const experience: TimelineItem[] = [
     date: 'May 2017 -  June 2018',
     location: 'Mondelez International',
     title: 'Software Development Engineer',
-    content: (
-      <>
-      </>
-    ),
+    content: <></>,
   },
 ];
 
@@ -318,7 +332,7 @@ export const testimonial: TestimonialSection = {
 };
 
 /**
- *  Extra Circular Activities 
+ *  Extra Circular Activities
  */
 export const extracirculars: ExtraCircularSection = {
   title: `Extra Curricular Activities`,
@@ -329,11 +343,20 @@ export const extracirculars: ExtraCircularSection = {
       place: `IIIT Hyderabad`,
       description: (
         <>
-        <p>• As a GenSec I used to run the Parliament & maintain good relation with faculty, staff to swiftly resolve students' community issues. </p>
-        <p>• Covid stuck this year and I've became the Gen Sec, it was difficult times to be a GenSec, but I did my job well with the help from student's community and faculty, staff.</p>
-        <p>• I've been awared <strong>BANYAN Award</strong>, the University highest award, for all my contribution towards students' community.</p>
+          <p>
+            • As a GenSec I used to run the Parliament & maintain good relation with faculty, staff to swiftly resolve
+            students' community issues.{' '}
+          </p>
+          <p>
+            • Covid stuck this year and I've became the Gen Sec, it was difficult times to be a GenSec, but I did my job
+            well with the help from student's community and faculty, staff.
+          </p>
+          <p>
+            • I've been awared <strong>BANYAN Award</strong>, the University highest award, for all my contribution
+            towards students' community.
+          </p>
         </>
-      )
+      ),
     },
     {
       title: `Speaker of Students' Parliament`,
@@ -341,11 +364,17 @@ export const extracirculars: ExtraCircularSection = {
       place: `IIIT Hyderabad`,
       description: (
         <>
-        <p>• Got elected as an MP by batchmates and elected as Speaker by the Parliament, I'm the first guy to became a speaker in their first term.</p>
-        <p>• As an MP, I've used to conduct regular parliament meetings and follow-up on all students' issues.</p>
-        <p>• I've also been a core-member of the <strong>FELICITY</strong>, university fest this year and helped in smooth orgaization.</p>
+          <p>
+            • Got elected as an MP by batchmates and elected as Speaker by the Parliament, I'm the first guy to became a
+            speaker in their first term.
+          </p>
+          <p>• As an MP, I've used to conduct regular parliament meetings and follow-up on all students' issues.</p>
+          <p>
+            • I've also been a core-member of the <strong>FELICITY</strong>, university fest this year and helped in
+            smooth orgaization.
+          </p>
         </>
-      )
+      ),
     },
     {
       title: `Co-ordinator of NSS program`,
@@ -353,12 +382,24 @@ export const extracirculars: ExtraCircularSection = {
       place: `IIIT Hyderabad`,
       description: (
         <>
-        <p>• I joined National Service Scheme program, known as NSS in my first year, I've been an active member of it thorught out the year. </p>
-        <p>• As a co-ordinator I've organized multiple <strong>Blood donation camps</strong>, in partnership with the trusted Govt hospitals in Hyderabad.</p>
-        <p>• I've also organized Orphanage/OldAge home visits, we used to go and spend an afternoon & have fun with the kids / old people </p>
-        <p>• and also organized Talks by high ranking Govt Officials & cleanliness drives & clothes donation drives ...many</p>
+          <p>
+            • I joined National Service Scheme program, known as NSS in my first year, I've been an active member of it
+            thorught out the year.{' '}
+          </p>
+          <p>
+            • As a co-ordinator I've organized multiple <strong>Blood donation camps</strong>, in partnership with the
+            trusted Govt hospitals in Hyderabad.
+          </p>
+          <p>
+            • I've also organized Orphanage/OldAge home visits, we used to go and spend an afternoon & have fun with the
+            kids / old people{' '}
+          </p>
+          <p>
+            • and also organized Talks by high ranking Govt Officials & cleanliness drives & clothes donation drives
+            ...many
+          </p>
         </>
-      )
+      ),
     },
     {
       title: `Co-ordinator of Photography club`,
@@ -366,13 +407,19 @@ export const extracirculars: ExtraCircularSection = {
       place: `IIIT Hyderabad`,
       description: (
         <>
-        <p>• I've been into Photography from the day I started using the camera, I learnt photography from my seniors in the club.</p>
-        <p>• I've organized photography classes,events & walks as being a co-ordinator and used to cover most of the University events by myself.</p>
+          <p>
+            • I've been into Photography from the day I started using the camera, I learnt photography from my seniors
+            in the club.
+          </p>
+          <p>
+            • I've organized photography classes,events & walks as being a co-ordinator and used to cover most of the
+            University events by myself.
+          </p>
         </>
-      )
+      ),
     },
   ],
-}; 
+};
 
 /**
  * Contact section
